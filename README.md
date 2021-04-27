@@ -1,30 +1,64 @@
-# Hello Node
+## Material UI Portfolio
 
-[Node.js](https://nodejs.org/en/about/) is a popular runtime that lets you run JavaScript on the server instead of in a browser. This project uses the [Fastify](https://www.fastify.io/) framework to explore basic templating with [Handlebars](https://handlebarsjs.com/) and submitting data using forms and querystrings.
+A portfolio single page application using React and Material UI
 
-## What's in this project?
+### Demo of this site available here [Material-UI-Portfolio Demo](https://materialui-portfolio.netlify.app/)
 
-← `README.md`: That’s this file, where you can tell people what your cool website does and how you built it.
+#### Installing
 
-← `public/style.css`: The styling rules for your pages and posts.
+Clone the repository using following command or download
 
-← `server.js`: The main server script for your new site.
+```
+git clone https://github.com/devmahmud/material-ui-portfolio.git
+```
 
-← `src/`: This folder holds the main template for your site along with some basic data files.
+#### To install dependency
 
-### Working in the `src/` folder 📁
+```
+npm install
+```
 
-← `src/pages/index.hbs`: This is the main page template for your site.
+#### To start the server
 
-← `src/colors.json`: A collection of CSS color names. We use this to pick a random color, and to match searches against color names.
+```
+npm start
+```
 
-← `src/seo.json`: When you're ready to share your new site or add a custom domain, change SEO/meta settings in here.
+#### For Production Build
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
+```
+npm run build
+```
 
-## You built this with Glitch!
+Server will be available at http://127.0.0.1:3000 in your browser
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
+# Project snapshot
 
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+## Home page
+
+![image](https://user-images.githubusercontent.com/19981097/86140838-218ec980-bb13-11ea-87c5-504d68c8d2a4.png)
+
+## Sidebar
+
+![image](https://user-images.githubusercontent.com/19981097/86140963-4aaf5a00-bb13-11ea-854e-012077dd6101.png)
+
+## Resume
+
+![image](https://user-images.githubusercontent.com/19981097/86141072-6fa3cd00-bb13-11ea-98d4-459d59af8a15.png)
+
+## Portfolio
+
+![image](https://user-images.githubusercontent.com/19981097/86141235-9f52d500-bb13-11ea-9d7b-44b982a6fd3f.png)
+
+## Contact
+
+![image](https://user-images.githubusercontent.com/19981097/86141330-bf829400-bb13-11ea-9070-ecd62027078f.png)
+
+## Author
+
+<blockquote>
+Mahmudul alam
+Email: expelmahmud@gmail.com
+</blockquote>
+
+========Thank You !!!=========
